@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio de Esteban Barrios</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Esteban Barrios</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Acerca de</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hola,<br>Soy <span class="home__title-color">Esteban</span><br>Desarrollador de Software IA,  DevSecOps</h1>
+                <a href="#contact" class="button">Contacto</a>
+            </div>
+            <div class="home__social">
+                <a href="tu_linkedin" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="tu_github" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">Acerca de</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="Sobre Esteban Barrios">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">Soy Esteban Barrios</h2>
+                    <p class="about__text">Soy Desarrollador de Software con más de 9 años de experiencia en Pronto BPO, especializado en DevSecOps, seguridad en la nube y tecnologías abiertas como Linux, Python y Machine Learning.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Habilidades Profesionales</h2>
+                    <p class="skills__text">A continuación, algunas de las tecnologías con las que tengo experiencia y el nivel de dominio en cada una de ellas.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html" style="width: 95%;"></div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css" style="width: 85%;"></div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__js" style="width: 95%;"></div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>              
+                    <img src="assets/img/skills_image.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact__container bd-grid">
+                <form action="tu_form_action" class="contact__form">
+                    <input type="text" placeholder="Nombre" class="contact__input">
+                    <input type="email" placeholder="Correo" class="contact__input">
+                    <textarea placeholder="Mensaje" class="contact__input"></textarea>
+                    <input type="submit" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Esteban Barrios</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" the "footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2024 Esteban Barrios. Todos los derechos reservados</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
